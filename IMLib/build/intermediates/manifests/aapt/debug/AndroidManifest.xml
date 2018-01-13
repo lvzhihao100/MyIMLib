@@ -5,8 +5,8 @@
     android:versionName="2.8.16 Stable" >
 
     <uses-sdk
-        android:minSdkVersion="16"
-        android:targetSdkVersion="24" />
+        android:minSdkVersion="18"
+        android:targetSdkVersion="26" />
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -24,9 +24,6 @@
     <application>
 
         <!-- imlib config begin -->
-        <meta-data
-            android:name="RONG_CLOUD_APP_KEY"
-            android:value="k51hidwqkl83b" />
 
         <service
             android:name="io.rong.imlib.ipc.RongService"

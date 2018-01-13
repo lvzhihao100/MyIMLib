@@ -3,8 +3,8 @@
     package="io.rong.imlib.test" >
 
     <uses-sdk
-        android:minSdkVersion="16"
-        android:targetSdkVersion="24" />
+        android:minSdkVersion="18"
+        android:targetSdkVersion="26" />
 
     <instrumentation
         android:name="android.test.InstrumentationTestRunner"
@@ -29,10 +29,6 @@
     <application android:debuggable="true" >
         <uses-library android:name="android.test.runner" />
         <!-- imlib config begin -->
-        <meta-data
-            android:name="RONG_CLOUD_APP_KEY"
-            android:value="k51hidwqkl83b" />
-
         <service
             android:name="io.rong.imlib.ipc.RongService"
             android:exported="true"
